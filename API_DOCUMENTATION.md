@@ -49,7 +49,7 @@ http://localhost:3000
 ```
 
 ### Get User by ID
-- **GET** `/api/users/1`
+- **GET** `/api/users/:id`
 - **Response:**
 ```json
 {
@@ -129,7 +129,7 @@ http://localhost:3000
 ```
 
 ### Update User
-- **PUT** `/api/users/8`
+- **PUT** `/api/users/:id`
 - **Body:**
 ```json
 {
@@ -160,7 +160,7 @@ http://localhost:3000
 ```
 
 ### Delete User
-- **PUT** `/api/users/8`
+- **PUT** `/api/users/:id`
 - **Body:**
 ```json
 {
@@ -226,7 +226,7 @@ http://localhost:3000
 ```
 
 ### Get Tasks by ID
-- **GET** `/api/tasks/2`
+- **GET** `/api/tasks/:id`
 - **Response:**
 ```json
 {
@@ -294,7 +294,7 @@ http://localhost:3000
 ```
 
 ### Update Task
-- **PUT** `/api/tasks/5`
+- **PUT** `/api/tasks/:id`
 - **Body:**
 ```json
 {
@@ -333,7 +333,7 @@ http://localhost:3000
 ```
 
 ### Delete Task
-- **PUT** `/api/tasks/5`
+- **PUT** `/api/tasks/:id`
 - **Body:**
 ```json
 {
@@ -381,7 +381,7 @@ http://localhost:3000
 ```
 
 ### Get Category by ID
-- **GET** `/api/categories/1`
+- **GET** `/api/categories/:id`
 - **Response:**
 ```json
 {
@@ -444,7 +444,7 @@ http://localhost:3000
 ```
 
 ### Update Category
-- **PUT** `/api/categories/5`
+- **PUT** `/api/categories/:id`
 - **Body:**
 ```json
 {
@@ -467,7 +467,7 @@ http://localhost:3000
 ```
 
 ### Delete Category
-- **PUT** `/api/categories/5`
+- **PUT** `/api/categories/:id`
 - **Body:**
 ```json
 {
@@ -553,7 +553,7 @@ http://localhost:3000
 ```
 
 ### Get Timelog by ID
-- **GET** `/api/timelogs/1`
+- **GET** `/api/timelogs/:id`
 - **Response:**
 ```json
 {
@@ -629,7 +629,7 @@ http://localhost:3000
 ```
 
 ### Update Timelog
-- **PUT** `/api/timelogs/6`
+- **PUT** `/api/timelogs/:id`
 - **Body:**
 ```json
 {
@@ -671,7 +671,7 @@ http://localhost:3000
 ```
 
 ### Delete Timelog
-- **PUT** `/api/timelogs/6`
+- **PUT** `/api/timelogs/:id`
 - **Body:**
 ```json
 {
